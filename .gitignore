@@ -1,0 +1,13 @@
+# Ignore raw large data
+data/raw/*
+!data/raw/.gitkeep
+
+# Keep processed sample but ignore large processed outputs
+data/processed/*
+!data/processed/day1_sample_clean.csv
+
+# Python cache and temp files
+_pycache_/
+.ipynb_checkpoints/
+.venv/
+.env
